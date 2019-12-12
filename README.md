@@ -16,7 +16,7 @@
     - public/assets/js    // contains index.js which contains the client-side javascript code and server.js which contains the server-side
                           //java script code
 
-  * The running application can be viewed at : 
+  * The running application can be viewed at : https://immense-beach-35095.herokuapp.com/
 
 
 ## Dependencies: ##
@@ -29,7 +29,7 @@
 
 ## Usage: ##
 
-   - When the user visits ...., he sees the welcome page. When he clicks the "Get Started" button, he's taken to the the page where he can enter his notes.
+   - When the user visits `https://immense-beach-35095.herokuapp.com/`, he sees the welcome page. When he clicks the "Get Started" button, he's taken to the the page where he can enter his notes.
 
      ![Welcome Page](public/assets/images/welcome.png)
      ---
