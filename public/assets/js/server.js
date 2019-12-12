@@ -1,11 +1,17 @@
 //Dependencies
+
 const fs=require("fs");
 var appRoot = require('app-root-path');
 const express=require("express");
 //Set Up Express
 const app=express();
+
 //Server will be listening on port 3000
-const PORT=3000;
+const PORT=process.env.PORT||3000;
+app.listen(PORT,function(){
+    console.log("Server started listening on http://localhost:"+PORT);
+});
+
 
 //express.static built-in middleware function to serve static file such as css
 app.use(express.static(appRoot.resolve("public","assets")));
@@ -13,9 +19,7 @@ app.use(express.static(appRoot.resolve("public","assets")));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 let JData; //array that holds the the list of notes to be written to the database or read from the database
-app.listen(PORT,function(){
-    console.log("Server started listening on http://localhost:"+PORT);
-});
+
 //sends the client the notes.html
 app.get("/notes",(req,res)=>{
     res.sendFile(appRoot.resolve("public/notes.html"));
