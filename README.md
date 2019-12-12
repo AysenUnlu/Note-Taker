@@ -47,7 +47,9 @@
 
    - User can view the note by selecting from the list on the left
 
-    ![View Notes](public/assets/images/viewNote.png)
+
+     ![View Notes](public/assets/images/viewNote.png)
+
 
     -----------------------------------------------------------------
    - User can delete a note and when he does, it is removed from the list on the left of the page as well
