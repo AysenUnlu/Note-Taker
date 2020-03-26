@@ -4,13 +4,14 @@
   "description": "",
   "main": "./public/assets/js/server.js",
   "scripts": {
-    "start":"node ./public/assets/js/server.js",
+    "start": "node ./public/assets/js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "app-root-path": "^3.0.0",
+    "compression": "^1.7.4",
     "express": "^4.16.4",
     "mysql": "^2.16.0"
   }

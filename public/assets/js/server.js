@@ -1,10 +1,11 @@
 //Dependencies
-
+//const compression=require("compression");
 const fs=require("fs");
 var appRoot = require('app-root-path');
 const express=require("express");
 //Set Up Express
 const app=express();
+//app.use(compression());
 
 //Server will be listening on port 3000
 const PORT=process.env.PORT||3000;

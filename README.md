@@ -31,33 +31,16 @@
 
    - When the user visits `https://immense-beach-35095.herokuapp.com/`, he sees the welcome page. When he clicks the "Get Started" button, he's taken to the the page where he can enter his notes.
 
-     ![Welcome Page](public/assets/images/welcome.png)
-     ---
+     ![Welcome Page](public/assets/images/NoteTaker.gif)
+     
    - Until the user enters the title and content of the note, the save button will stay hidden. Write button gives the user a new note page to write.
-
-     ![Initial Note Page](public/assets/images/initial.png)
-
-     --------------------------------------------------------------
 
    - When user enters a title and note and clicks the save button, the note will be saved and listed on the left of the page with its title
 
-     ![Enter Notes](public/assets/images/enterNotes.png)
-
-     ---------------------------------------------------------------
-
    - User can view the note by selecting from the list on the left
 
-
-     ![View Notes](public/assets/images/viewNote.png)
-
-
-    -----------------------------------------------------------------
    - User can delete a note and when he does, it is removed from the list on the left of the page as well
 
-   ![Delete Notes](public/assets/images/deleteNote.png)
-   
-
----------------------------------------------------------------------------------------------------------------------------
 
 ## How: ##
 
